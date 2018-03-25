@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Tizen Wearable Web Notification Manager" />
+
+    <title>Notification Manager</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+
+    <div class="page active" id="page-main">
+        <div class="page-header">
+        	<p>Hello Tizen Manager</p>
+        	<div>Hiiii</div>
+			<img src="http://cdn.truthandaction.org/wp-content/uploads/Arrow-Left.png" alt="Smiley face" width="42" height="42">
+			
+        </div>
+        <div class="page-content">
+            <div class="list-item" id="notification-post-btn">
+                <p>Post Notification</p>
+            </div>
+            <div class="list-item" id="notification-get-btn">
+                <p>Get Notifications</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page" id="page-notification">
+        <div class="page-header">
+            <p>Notifications</p>
+        </div>
+        <div class="page-content">
+            <div id="notification-list"></div>
+            <div id="no-notification">No notifications</div>
+        </div>
+
+        <div class="page-footer">
+            <div id="remove-all-btn">REMOVE ALL</div>
+        </div>
+    </div>
+
+    <div class="page" id="page-notification-detail">
+        <div class="detail-divider">Title</div>
+        <div class="detail-item" id="detail-title"></div>
+        <div class="detail-divider">Posted Time</div>
+        <div class="detail-item" id="detail-time"></div>
+        <div class="detail-divider">Content</div>
+        <div class="detail-item" id="detail-content"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

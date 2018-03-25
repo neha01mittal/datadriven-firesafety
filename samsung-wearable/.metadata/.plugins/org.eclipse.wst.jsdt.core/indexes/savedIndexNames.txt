@@ -1,0 +1,10 @@
+INDEX VERSION 1.3+/Users/neha01mittal/Desktop/UCB/hackathons/firstnet-safety/samsung-wearable/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+613841747.index
+2637627687.index
+105151176.index
+4273419922.index
+1343132380.index
+476786155.index
+2822876346.index
+1952394247.index
+1927058247.index
